@@ -14,6 +14,7 @@
 		342AC56B1B78CD040057A6E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342AC56A1B78CD040057A6E7 /* Images.xcassets */; };
 		342AC56E1B78CD040057A6E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 342AC56C1B78CD040057A6E7 /* LaunchScreen.xib */; };
 		342AC57A1B78CD040057A6E7 /* kvcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AC5791B78CD040057A6E7 /* kvcTests.m */; };
+		342AC5851B78CD280057A6E7 /* children.m in Sources */ = {isa = PBXBuildFile; fileRef = 342AC5841B78CD280057A6E7 /* children.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		342AC5731B78CD040057A6E7 /* kvcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kvcTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		342AC5781B78CD040057A6E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		342AC5791B78CD040057A6E7 /* kvcTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kvcTests.m; sourceTree = "<group>"; };
+		342AC5831B78CD280057A6E7 /* children.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = children.h; sourceTree = "<group>"; };
+		342AC5841B78CD280057A6E7 /* children.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = children.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				342AC5621B78CD040057A6E7 /* AppDelegate.m */,
 				342AC5641B78CD040057A6E7 /* ViewController.h */,
 				342AC5651B78CD040057A6E7 /* ViewController.m */,
+				342AC5831B78CD280057A6E7 /* children.h */,
+				342AC5841B78CD280057A6E7 /* children.m */,
 				342AC5671B78CD040057A6E7 /* Main.storyboard */,
 				342AC56A1B78CD040057A6E7 /* Images.xcassets */,
 				342AC56C1B78CD040057A6E7 /* LaunchScreen.xib */,
@@ -221,6 +226,7 @@
 			files = (
 				342AC5661B78CD040057A6E7 /* ViewController.m in Sources */,
 				342AC5631B78CD040057A6E7 /* AppDelegate.m in Sources */,
+				342AC5851B78CD280057A6E7 /* children.m in Sources */,
 				342AC5601B78CD040057A6E7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
